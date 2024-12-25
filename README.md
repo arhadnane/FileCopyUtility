@@ -1,47 +1,46 @@
 # FileCopyUtility
 
-FileCopyUtility est une application console en C# qui permet de copier tout le contenu d'un dossier source vers un dossier de destination, y compris les sous-dossiers et leurs fichiers.
+FileCopyUtility is a C# console application that allows you to copy all the contents of a source folder to a destination folder, including subfolders and their files.
 
-## Caractéristiques
+## Features
 
-- Copie tous les fichiers d'un dossier source vers un dossier de destination.
-- Copie récursive des sous-dossiers et de leurs contenus.
-- Écrase les fichiers existants dans le dossier de destination.
+- Copies all files from a source folder to a destination folder.
+- Recursively copies subfolders and their contents.
+- Overwrites existing files in the destination folder.
 
-## Prérequis
+## Prerequisites
 
 - .NET 9.0
 - Visual Studio 2022
 
 ## Installation
 
-1. Clonez le dépôt : git clone https://github.com/votre-utilisateur/FileCopyUtility.git
-2. Ouvrez le projet dans Visual Studio 2022.
+1. Clone the repository: `git clone https://github.com/your-username/FileCopyUtility.git`
+2. Open the project in Visual Studio 2022.
 
-## Utilisation
+## Usage
 
-1. Modifiez le fichier `Program.cs` pour spécifier les chemins des dossiers source et destination :
-   - string sourceDirectory = @"C:\SourceFolder";
-   - string destinationDirectory = @"C:\DestinationFolder";
-   - FileCopyUtility.CopyDirectory(sourceDirectory, destinationDirectory);
+1. Modify the `Program.cs` file to specify the paths of the source and destination folders:
+   - `string sourceDirectory = @"C:\SourceFolder";`
+   - `string destinationDirectory = @"C:\DestinationFolder";`
+   - `FileCopyUtility.CopyDirectory(sourceDirectory, destinationDirectory);`
 
-2. Exécutez l'application.
+2. Run the application.
 
 ## Tests
 
-Ce projet utilise `xUnit` pour les tests unitaires. Pour exécuter les tests :
+This project uses `xUnit` for unit testing. To run the tests:
 
-1. Ouvrez l'Explorateur de tests dans Visual Studio.
-2. Cliquez sur **Exécuter tout** pour exécuter tous les tests.
+1. Open the Test Explorer in Visual Studio.
+2. Click on **Run All** to execute all tests.
 
-Le fichier de test `FileCopyUtilityTests.cs` contient un test unitaire pour vérifier que la méthode `CopyDirectory` copie correctement tous les fichiers et sous-dossiers.
+The test file `FileCopyUtilityTests.cs` contains a unit test to verify that the `CopyDirectory` method correctly copies all files and subfolders.
 
 ## Contribution
 
-Les contributions sont les bienvenues ! Veuillez soumettre une pull request pour toute amélioration ou correction de bug.
+Contributions are welcome! Please submit a pull request for any improvements or bug fixes.
 
-## Licence
+## License
 
-Ce projet est sous licence MIT: https://opensource.org/license/mit
+This project is licensed under the MIT License: https://opensource.org/license/mit
   
-    
