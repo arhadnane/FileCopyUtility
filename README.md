@@ -21,8 +21,8 @@ FileCopyUtility est une application console en C# qui permet de copier tout le c
 ## Utilisation
 
 1. Modifiez le fichier `Program.cs` pour spécifier les chemins des dossiers source et destination :
-   - string sourceDirectory = @"D:\SourceFolder";
-   - string destinationDirectory = @"D:\DestinationFolder";
+   - string sourceDirectory = @"C:\SourceFolder";
+   - string destinationDirectory = @"C:\DestinationFolder";
    - FileCopyUtility.CopyDirectory(sourceDirectory, destinationDirectory);
 
 2. Exécutez l'application.
